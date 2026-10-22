@@ -1,0 +1,11 @@
+time,door,badge_id,holder,event
+2026-10-09 13:25:10,R-114,B1042,Ms. Okafor (teacher),GRANTED
+2026-10-09 13:31:44,R-114,B2207,Lena P. (student),GRANTED
+2026-10-09 13:32:50,R-114,B2209,Marcus D. (student),GRANTED
+2026-10-09 14:40:55,R-114,B3318,Tyler R. (student),DENIED - badge expired 2026-09-30
+2026-10-09 14:41:09,R-114,B3318,Tyler R. (student),DENIED - badge expired 2026-09-30
+2026-10-09 15:10:20,R-114,B1042,Ms. Okafor (teacher),GRANTED
+2026-10-09 15:39:07,R-114,B3318,Tyler R. (student),DENIED - badge expired 2026-09-30
+2026-10-09 15:41:02,R-114,B2207,Lena P. (student),GRANTED
+2026-10-09 15:42:30,R-114,,,ALARM - door held open 74 seconds
+2026-10-09 16:05:00,R-114,B1042,Ms. Okafor (teacher),GRANTED

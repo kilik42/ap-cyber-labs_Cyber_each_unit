@@ -1,0 +1,11 @@
+203.0.113.61 - [2026-10-15 03:11:02] "GET /portal/login HTTP/1.1" 200 4120
+203.0.113.61 - [2026-10-15 03:12:20] "GET /portal/search?q=algebra HTTP/1.1" 200 5530
+203.0.113.61 - [2026-10-15 03:13:05] "GET /portal/search?q=' HTTP/1.1" 500 311
+203.0.113.61 - [2026-10-15 03:13:41] "GET /portal/search?q=' OR '1'='1 HTTP/1.1" 200 48213
+203.0.113.61 - [2026-10-15 03:14:30] "GET /portal/search?q=x' UNION SELECT username,password_hash FROM users-- HTTP/1.1" 200 61844
+203.0.113.61 - [2026-10-15 03:15:12] "GET /portal/comment?text=<script>alert(1)</script> HTTP/1.1" 200 1980
+203.0.113.61 - [2026-10-15 03:16:50] "GET /portal/download?file=../../../../etc/passwd HTTP/1.1" 404 289
+203.0.113.61 - [2026-10-15 03:17:33] "GET /portal/download?file=../../config/db.conf HTTP/1.1" 200 412
+10.8.4.31 - [2026-10-15 09:02:14] "GET /portal/grades?student=1001 HTTP/1.1" 200 2230
+10.8.4.22 - [2026-10-15 09:05:41] "GET /portal/grades?student=1002 HTTP/1.1" 200 2218
+10.8.5.14 - [2026-10-15 09:11:09] "GET /portal/grades?student=1003 HTTP/1.1" 200 2240

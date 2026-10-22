@@ -1,0 +1,29 @@
+Oct 14 01:32:27 srv sshd[2014]: Failed password for root from 198.51.100.9
+Oct 14 01:32:28 srv sshd[2016]: Failed password for sam from 198.51.100.9
+Oct 14 01:32:29 srv sshd[2018]: Failed password for lee from 198.51.100.9
+Oct 14 01:32:30 srv sshd[2020]: Failed password for nina from 198.51.100.9
+Oct 14 01:32:31 srv sshd[2022]: Failed password for jordan from 198.51.100.9
+Oct 14 01:32:32 srv sshd[2024]: Failed password for guest from 198.51.100.9
+Oct 14 02:10:05 srv sshd[2026]: Failed password for admin from 203.0.113.8
+Oct 14 02:10:07 srv sshd[2028]: Failed password for admin from 203.0.113.8
+Oct 14 02:10:09 srv sshd[2030]: Failed password for admin from 203.0.113.8
+Oct 14 02:10:11 srv sshd[2032]: Failed password for admin from 203.0.113.8
+Oct 14 02:10:13 srv sshd[2034]: Failed password for admin from 203.0.113.8
+Oct 14 02:10:15 srv sshd[2036]: Failed password for admin from 203.0.113.8
+Oct 14 02:10:17 srv sshd[2038]: Failed password for admin from 203.0.113.8
+Oct 14 02:10:19 srv sshd[2040]: Failed password for admin from 203.0.113.8
+Oct 14 02:10:21 srv sshd[2042]: Failed password for admin from 203.0.113.8
+Oct 14 02:10:23 srv sshd[2044]: Failed password for admin from 203.0.113.8
+Oct 14 02:10:25 srv sshd[2046]: Failed password for admin from 203.0.113.8
+Oct 14 02:10:27 srv sshd[2048]: Failed password for admin from 203.0.113.8
+Oct 14 02:10:31 srv sshd[2050]: Accepted password for admin from 203.0.113.8
+Oct 14 02:11:20 srv sudo: admin : COMMAND=/usr/bin/cat /etc/shadow
+Oct 14 02:12:45 srv sudo: admin : COMMAND=/usr/bin/vi /srv/reports/payroll.csv
+Oct 14 02:14:02 srv sudo: admin : COMMAND=/bin/rm /var/log/auth.log.1
+Oct 14 02:15:10 srv sshd[2052]: session closed for user admin
+Oct 14 07:51:10 srv sshd[2002]: Accepted password for sam from 10.0.0.14
+Oct 14 08:01:58 srv sshd[2012]: Failed password for lee from 10.0.0.22
+Oct 14 08:02:33 srv sshd[2004]: Accepted password for lee from 10.0.0.22
+Oct 14 08:15:05 srv sshd[2006]: Accepted password for nina from 10.0.0.31
+Oct 14 09:01:47 srv sshd[2008]: Accepted password for admin from 10.0.0.5
+Oct 14 09:40:12 srv sshd[2010]: Accepted password for jordan from 10.0.0.40

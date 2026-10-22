@@ -1,0 +1,8 @@
+$ ps -eo user,pid,ppid,%cpu,etime,cmd --sort=-%cpu | head -8
+USER      PID  PPID %CPU     ELAPSED CMD
+lab      3921  3880 41.2    03:07:08 /tmp/.kupdated2 --quiet
+root      812     1  1.1    05:02:44 /usr/sbin/sshd -D
+lab      2410  2380  0.8    05:01:10 /usr/bin/gnome-shell
+lab      2655  2410  0.4    04:58:31 firefox
+root      611     1  0.2    05:02:50 /usr/sbin/cron -f
+lab      3105  2410  0.1    04:10:19 /usr/bin/python3 /home/lab/lab01.py

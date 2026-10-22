@@ -1,0 +1,8 @@
+IDS ALERT 2026-10-14 09:15:03
+signature: PORT_SCAN_SEQUENTIAL
+source: 203.0.113.50
+destination: 10.0.5.10
+packets: 6 SYN packets in 2 seconds
+destination ports: 21, 22, 23, 25, 80, 443
+responses: no reply for 21, 22, 23, 25, 80; SYN-ACK (open) for 443
+action: alert only (no block)

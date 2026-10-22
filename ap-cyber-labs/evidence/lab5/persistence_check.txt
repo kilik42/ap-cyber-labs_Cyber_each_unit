@@ -1,0 +1,15 @@
+$ crontab -l -u lab
+# m h dom mon dow command
+@reboot /tmp/.kupdated2 --quiet
+0 8 * * 1-5 /usr/bin/python3 /home/lab/lab01.py
+
+$ ls -la /tmp
+drwxrwxrwt 12 root root 4096 Oct 14 09:30 .
+-rwxr-xr-x  1 lab  lab  84312 Oct 14 05:58 .kupdated2
+-rw-r--r--  1 lab  lab    312 Oct 14 05:58 k.sh
+drwx------  2 lab  lab   4096 Oct 14 04:02 pulse-AbC123
+
+$ tail -3 /var/log/auth.log
+Oct 14 05:56:30 ws01 sshd[3777]: Accepted password for lab from 203.0.113.99
+Oct 14 05:57:41 ws01 sudo: lab : COMMAND=/usr/sbin/useradd -m svc_helper
+Oct 14 05:57:55 ws01 sudo: lab : COMMAND=/usr/sbin/usermod -aG sudo svc_helper

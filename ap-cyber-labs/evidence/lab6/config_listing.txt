@@ -1,0 +1,9 @@
+$ ls -l /var/www/portal/config
+-rw-rw-rw- 1 www-data www-data 412 Sep 3 10:14 db.conf
+
+$ cat /var/www/portal/config/db.conf
+db_host=10.8.9.2
+db_user=portal_admin
+db_password=Sp1derWeb!2026
+db_name=students
+db_privileges=ALL

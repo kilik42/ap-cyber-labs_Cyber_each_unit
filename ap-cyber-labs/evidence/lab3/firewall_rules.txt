@@ -1,0 +1,9 @@
+Lab network firewall (checked top to bottom, first match wins)
+
+Rule  Action  Direction  Protocol  Port   Source
+1     Allow   Inbound    TCP       443    Any
+2     Allow   Inbound    TCP       22     10.0.5.20
+3     Deny    Inbound    TCP       22     Any
+4     Allow   Inbound    TCP       8080   10.0.5.0/24 (lab subnet)
+5     Deny    Inbound    Any       Any    203.0.113.50
+6     Deny    Inbound    Any       Any    Any

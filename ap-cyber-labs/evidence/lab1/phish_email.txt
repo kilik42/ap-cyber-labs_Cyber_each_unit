@@ -1,0 +1,15 @@
+From: IT Helpdesk <helpdesk@hancock-mail-verify.example.net>
+To: mrivera@school.example
+Date: Tue, 06 Oct 2026 15:12:30 -0500
+Subject: Mailbox storage almost full - verify now
+
+Dear Teacher,
+
+Our records show your mailbox is 98% full. To avoid losing incoming mail,
+you must verify your account within 24 hours or it will be suspended per
+district IT policy.
+
+Verify here: https://hancock-mail-verify.example.net/login
+
+Thank you,
+IT Helpdesk Team

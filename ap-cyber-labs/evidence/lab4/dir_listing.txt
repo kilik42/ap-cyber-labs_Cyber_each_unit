@@ -1,0 +1,5 @@
+$ ls -l /srv/reports
+-rw-rw-rw- 1 admin finance  18240 Oct 14 02:12 payroll.csv
+-rw-r----- 1 admin finance   9120 Oct  1 16:40 budget_q3.xlsx
+-rwxr-xr-x 1 admin admin      512 Sep 20 11:05 backup.sh
+-rw------- 1 root  root      2048 Aug 15 09:00 notes_private.txt

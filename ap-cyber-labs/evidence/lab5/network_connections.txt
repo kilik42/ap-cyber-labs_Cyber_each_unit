@@ -1,0 +1,8 @@
+$ ss -tnp | grep kupdated2
+ESTAB  0  0  10.0.5.33:51888  203.0.113.99:4444  users:(("kupdated2",pid=3921,fd=4))
+
+# connection log (one line per new connection)
+09:00:02  kupdated2 -> 203.0.113.99:4444  64 bytes sent
+09:01:02  kupdated2 -> 203.0.113.99:4444  64 bytes sent
+09:02:02  kupdated2 -> 203.0.113.99:4444  64 bytes sent
+09:03:02  kupdated2 -> 203.0.113.99:4444  64 bytes sent
